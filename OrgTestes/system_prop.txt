@@ -1,0 +1,187 @@
+Current Input Method Manager state:
+  Input Methods:
+  InputMethod #0:
+    mId=com.google.android.googlequicksearchbox/com.google.android.voicesearch.ime.VoiceInputMethodService mSettingsActivityName=com.google.android.voicesearch.VoiceSearchPreferences
+    mIsDefaultResId=0x0
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.google.android.voicesearch.ime.VoiceInputMethodService
+        packageName=com.google.android.googlequicksearchbox
+        labelRes=0x7f0e0690 nonLocalizedLabel=null icon=0x0 banner=0x0
+        enabled=true exported=true processName=com.google.android.googlequicksearchbox:search
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x0
+  InputMethod #1:
+    mId=com.android.inputmethod.latin/.LatinIME mSettingsActivityName=com.android.inputmethod.latin.settings.SettingsActivity
+    mIsDefaultResId=0x7f070000
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.android.inputmethod.latin.LatinIME
+        packageName=com.android.inputmethod.latin
+        labelRes=0x7f0a0037 nonLocalizedLabel=null icon=0x0 banner=0x0
+        enabled=true exported=true processName=com.android.inputmethod.latin
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x0
+  InputMethod #2:
+    mId=jp.co.omronsoft.openwnn/.OpenWnnJAJP mSettingsActivityName=jp.co.omronsoft.openwnn.OpenWnnControlPanelJAJP
+    mIsDefaultResId=0x0
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=jp.co.omronsoft.openwnn.OpenWnnJAJP
+        packageName=jp.co.omronsoft.openwnn
+        labelRes=0x0 nonLocalizedLabel=Japanese IME icon=0x0 banner=0x0
+        enabled=true exported=true processName=jp.co.omronsoft.openwnn
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x0
+  InputMethod #3:
+    mId=com.example.android.softkeyboard/.SoftKeyboard mSettingsActivityName=com.example.android.softkeyboard.ImePreferences
+    mIsDefaultResId=0x0
+    Service:
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ServiceInfo:
+        name=com.example.android.softkeyboard.SoftKeyboard
+        packageName=com.example.android.softkeyboard
+        enabled=true exported=true processName=com.example.android.softkeyboard
+        permission=android.permission.BIND_INPUT_METHOD
+        flags=0x0
+  Clients:
+  Client ClientState{ce78aca uid 10009 pid 1992}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@f6c226c
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@f0fc035
+    sessionRequested=false
+    curSession=SessionState{uid 10009 pid 1992 method 4432cca session 67bce3b channel ClientState{ce78aca uid 10009 pid 1992} (server)}
+  Client ClientState{67898cc uid 10519 pid 5437}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@61a001b
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@4fc75b8
+    sessionRequested=false
+    curSession=SessionState{uid 10519 pid 5437 method 4432cca session fac5f91 channel ClientState{67898cc uid 10519 pid 5437} (server)}
+  Client ClientState{82ef958 uid 10015 pid 1723}:
+    client=com.android.internal.view.IInputMethodClient$Stub$Proxy@e092ab1
+    inputContext=com.android.internal.view.IInputContext$Stub$Proxy@acf4b96
+    sessionRequested=false
+    curSession=null
+  Client ClientState{62c19b0 uid 1000 pid 1626}:
+    client=android.view.inputmethod.InputMethodManager$1@27170e
+    inputContext=android.view.inputmethod.InputMethodManager$ControlledInputConnectionWrapper@e2c8b22
+    sessionRequested=false
+    curSession=SessionState{uid 1000 pid 1626 method 4432cca session 9a7c9b3 channel ClientState{62c19b0 uid 1000 pid 1626} (server)}
+  mCurMethodId=com.android.inputmethod.latin/.LatinIME
+  mCurClient=ClientState{67898cc uid 10519 pid 5437} mCurSeq=20
+  mCurFocusedWindow=android.os.BinderProxy@9350a07
+  mCurId=com.android.inputmethod.latin/.LatinIME mHaveConnect=true mBoundToMethod=true
+  mCurToken=android.os.Binder@b664929
+  mCurIntent=Intent { act=android.view.InputMethod cmp=com.android.inputmethod.latin/.LatinIME (has extras) }
+  mCurMethod=com.android.internal.view.IInputMethod$Stub$Proxy@4432cca
+  mEnabledSession=SessionState{uid 10519 pid 5437 method 4432cca session fac5f91 channel ClientState{67898cc uid 10519 pid 5437} (server)}
+  mShowRequested=false mShowExplicitlyRequested=false mShowForced=false mInputShown=false
+  mCurUserActionNotificationSequenceNumber=1
+  mSystemReady=true mInteractive=true
+  mSettingsObserver=SettingsObserver{mUserId=0 mRegistered=true mLastEnabled=}
+  mSwitchingController:
+    mSwitchingAwareRotationList:
+      rank=0 item=ImeSubtypeListItem{mImeName=Android Keyboard (AOSP) mSubtypeName=English (US) mSubtypeId=0 mIsSystemLocale=true mIsSystemLanguage=true}
+    mSwitchingUnawareRotationList:
+ 
+Input method client state for android.view.inputmethod.InputMethodManager@ebfe8d4:
+  mService=com.android.internal.view.IInputMethodManager$Stub$Proxy@89eea7d
+  mMainLooper=Looper (main, tid 1) {ca1d72}
+  mIInputContext=android.view.inputmethod.InputMethodManager$ControlledInputConnectionWrapper@33375c3
+  mActive=true mHasBeenInactive=false mBindSequence=21 mCurId=com.android.inputmethod.latin/.LatinIME
+  mCurMethod=com.android.internal.view.IInputMethodSession$Stub$Proxy@29cbe40
+  mCurRootView=com.android.internal.policy.PhoneWindow$DecorView{434b179 V.E...... R.....I. 0,0-1026,510}
+  mServedView=android.support.v7.widget.n{5189ebe VFED..CL. .F....I. 42,42-900,160 #7f0f0095 app:id/dialog_input}
+  mNextServedView=android.support.v7.widget.n{5189ebe VFED..CL. .F....I. 42,42-900,160 #7f0f0095 app:id/dialog_input}
+  mServedConnecting=false
+  mCurrentTextBoxAttribute:
+    inputType=0x1 imeOptions=0x6 privateImeOptions=null
+    actionLabel=null actionId=0
+    initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0
+    hintText=Name label=null
+    packageName=com.orgzly fieldId=2131689621 fieldName=null
+    extras=null
+  mServedInputConnection=com.android.internal.widget.EditableInputConnection@cdab1f
+  mCompletions=null
+  mCursorRect=Rect(0, 0 - 0, 0)
+  mCursorSelStart=0 mCursorSelEnd=0 mCursorCandStart=-1 mCursorCandEnd=-1
+  mNextUserActionNotificationSequenceNumber=1 mLastSentUserActionNotificationSequenceNumber=-1
+ 
+Input method service state for com.android.inputmethod.latin.LatinIME@5ef84e0:
+  mWindowCreated=true mWindowAdded=true
+  mWindowVisible=true mWindowWasVisible=true mInShowWindow=false
+  Configuration={1.0 310mcc260mnc en_US ldltr sw411dp w411dp h659dp 420dpi nrml port finger -keyb/v/h dpad/v s.5}
+  mToken=android.os.BinderProxy@30d250d
+  mInputBinding=InputBinding{android.os.BinderProxy@ee98b76 / uid 10519 / pid 5437}
+  mInputConnection=com.android.internal.view.InputConnectionWrapper@5328577
+  mStartedInputConnection=com.android.internal.view.InputConnectionWrapper@c3745e4
+  mInputStarted=true mInputViewStarted=true mCandidatesViewStarted=false
+  mInputEditorInfo:
+    inputType=0x1 imeOptions=0x6 privateImeOptions=null
+    actionLabel=null actionId=0
+    initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0
+    hintText=Name label=null
+    packageName=com.orgzly fieldId=2131689621 fieldName=null
+    extras=null
+  mShowInputRequested=true mLastShowInputRequested=true mShowInputForced=false mShowInputFlags=0x0
+  mCandidatesVisibility=4 mFullscreenApplied=true mIsFullscreen=false mExtractViewHidden=false
+  mExtractedText: null
+  mExtractedToken=0
+  mIsInputViewShown=true mStatusIcon=0
+Last computed insets:
+  contentTopInsets=0 visibleTopInsets=0 touchableInsets=0 touchableRegion=SkRegion()
+ mShouldClearInsetOfPreviousIme=false
+LatinIME state :
+  VersionCode = 23
+  VersionName = 6.0-3738108
+  Keyboard mode = 0
+Current settings :
+   mSpacingAndPunctuations = mSortedSymbolsPrecededBySpace = [38, 40, 91, 123]
+   mSortedSymbolsFollowedBySpace = [33, 38, 41, 44, 46, 58, 59, 63, 93, 125]
+   mSortedWordConnectors = [39, 45]
+   mSortedWordSeparators = [9, 10, 32, 33, 34, 38, 40, 41, 42, 43, 44, 46, 47, 58, 59, 60, 61, 62, 63, 91, 93, 95, 123, 124, 125, 160]
+   mSuggestPuncList = PunctuationSuggestions:  words=[!, ?, \,, :, ;, ", (, ), ', -, /, @, _]
+   mSentenceSeparator = 46
+   mSentenceSeparatorAndSpace = . 
+   mCurrentLanguageHasSpaces = true
+   mUsesAmericanTypography = true
+   mUsesGermanRules = false
+   mDelayInMillisecondsToUpdateOldSuggestions = 300
+   mAutoCap = true
+   mVibrateOn = true
+   mSoundOn = false
+   mKeyPreviewPopupOn = true
+   mShowsVoiceInputKey = true
+   mIncludesOtherImesInLanguageSwitchList = true
+   mShowsLanguageSwitchKey = true
+   mUseContactsDict = true
+   mUsePersonalizedDicts = true
+   mUseDoubleSpacePeriod = true
+   mBlockPotentiallyOffensive = true
+   mBigramPredictionEnabled = true
+   mGestureInputEnabled = false
+   mGestureTrailEnabled = true
+   mGestureFloatingPreviewTextEnabled = true
+   mSlidingKeyInputPreviewEnabled = true
+   mKeyLongpressTimeout = 300
+   mLocale = en_US
+   mInputAttributes = InputAttributes: inputType=0x00000001 noAutoCorrect shouldShowSuggestions insertSpaces targetApp=com.orgzly
+
+   mKeypressVibrationDuration = -1
+   mKeypressSoundVolume = -1.0
+   mKeyPreviewPopupDismissDelay = 70
+   mAutoCorrectEnabled = true
+   mAutoCorrectionThreshold = 0.185
+   mAutoCorrectionEnabledPerUserSettings = false
+   mSuggestionsEnabledPerUserSettings = true
+   mDisplayOrientation = 1
+   mAppWorkarounds = null
+   mIsInternal = false
+   mKeyPreviewShowUpDuration = 17
+   mKeyPreviewDismissDuration = 53
+   mKeyPreviewShowUpStartScaleX = 0.98
+   mKeyPreviewShowUpStartScaleY = 0.98
+   mKeyPreviewDismissEndScaleX = 0.94000006
+   mKeyPreviewDismissEndScaleY = 0.94000006
+
